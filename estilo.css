@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    height: 15%;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 20px   ;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+
+}
+.esquerda{
+    border: tomato solid 1px;
+    width: 50%;
+}
+
+.direita{
+    border: turquoise solid 1px;
+    width: 50%;
+    height: 50%;
+}
+
+.radio{
+    font-size: 1.2em;
+    margin-left: 50px;
+
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.inputs input{
+    width: 250px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1.3em;
+    background-color:#EBF8FF;
+    border: none;
+}
+
+p{
+    margin-left: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
