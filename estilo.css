@@ -3,18 +3,30 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     background-color: black;
-    height: 15%;
+    height: 10%;
+}
+
+.logo{
+    font-size: 1.5em;
 }
 
 .navbar ul li{
     list-style-type: none;
     margin-top: 20px;
-    margin-right: 20px   ;
+    margin-right: 50px;
+}
+
+ul li:first-child {
+    margin-right: 1200px;
 }
 
 .navbar ul li a{
@@ -35,6 +47,7 @@
 .esquerda{
     border: tomato solid 1px;
     width: 50%;
+    padding-left: 50px;
 }
 
 .direita{
@@ -44,10 +57,13 @@
 }
 
 .radio{
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-left: 50px;
-
+    border: 2px solid ;
 }
+
+
+
 .inputs{
     display: flex;
     flex-direction: column;
@@ -70,4 +86,34 @@ p{
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 50px;
+}
+
+.titulo{
+    font-size: 3.5em;
+    color: #343a40;
+}
+
+.subtitulo{
+    font-size: 1.3em;
+}
+
+.button{
+    width: 200px;
+    font-size: 1.1em;
+    margin-top: 25px;
+    margin-left: 50px;
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 15px;
+    font-weight: 550;
+}
+
+.policy{
+    font-size: 0.9em;
+    color: #b7b7a4;
+}
+
+.signin{
+    font-size: 0.8em;
 }

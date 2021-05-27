@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UBER</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
 </head>
 
 <body>
     <div class="navbar">
         <ul>
-            <li><a href="">Logo</a></li>
+            <li class="logo"><a href="">Uber</a></li>
             <li><a href="">EN</a></li>
             <li><a href="">Ride with Uber</a></li>
         </ul>
+
+
     </div>
 
     <div class="conteudo">
         <div class="esquerda">
-            <h1>Get ready to ride with us</h1>
-            <h4>Drive with Uber. Earn on your schedule.</h4>
+            <p class="titulo">Get ready to <br> ride with us</p>
+            <p class="subtitulo">Drive with Uber.Earn on your schedule</p>
 
         </div>
 
@@ -27,12 +34,12 @@
             <p>Sign up now</p>
             <form>
                 <div class="radio">
-                    <label for="">
-                        <input type="radio">I have a car
+                    <label for="myRadioId">
+                        <input type="radio" name="car" id="myRadioId">I have a car
                     </label>
-
-                    <label for="">
-                        <input type="radio">I need a car
+                    <span class="checkmark"></span>
+                    <label for="myRadioId2">
+                        <input type="radio" name="car" id="myRadioId">I need a car
                     </label></br>
                 </div>
 
@@ -44,6 +51,15 @@
                     <input type="text" placeholder="Phone number">
                     <input type="text" placeholder="Where are you at?">
                 </div>
+
+                <p class="policy">By proceeding, I agree to Uber's Terms of Use and acknowledge that I have read the Privacy Policy.<br>
+                    <br>
+                    I also agree that Uber or its representatives may contact me by email, phone, or SMS (including by automated means)
+                     at the email address or number I provide, including for marketing purposes.</p>
+
+                <button class="button">Sign up to drive</button>
+                 <p class="signin">Already have an account? <a href="">Sign in</a></p>
+                
             </form>
 
         </div>
