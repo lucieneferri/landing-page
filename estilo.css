@@ -26,7 +26,7 @@ body{
 }
 
 ul li:first-child {
-    margin-right: 1200px;
+    margin-right: 75%;
 }
 
 .navbar ul li a{
@@ -38,6 +38,10 @@ ul li:first-child {
     margin-right: 50px;
 }
 
+i{
+    margin-right: 5px;
+}
+
 
 .conteudo{
     display: flex;
@@ -45,13 +49,11 @@ ul li:first-child {
 
 }
 .esquerda{
-    border: tomato solid 1px;
     width: 50%;
     padding-left: 50px;
 }
 
 .direita{
-    border: turquoise solid 1px;
     width: 50%;
     height: 50%;
 }
@@ -59,26 +61,38 @@ ul li:first-child {
 .radio{
     font-size: 1.3em;
     margin-left: 50px;
-    border: 2px solid ;
 }
-
 
 
 .inputs{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 50px;
+    gap: 1rem;
+    padding-top: 1.5rem;
     
 }
 
+.short-input{
+    width: calc(50% - .5rem);
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.normal-input{
+    width: 100%;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+/**
 .inputs input{
-    width: 250px;
     padding: 10px;
     margin-top: 15px;
     font-size: 1.3em;
     background-color:#EBF8FF;
     border: none;
-}
+}**/
 
 p{
     margin-left: 50px;
