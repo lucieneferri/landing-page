@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a{
+    color: inherit;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -13,6 +17,8 @@ body{
     justify-content: flex-end;
     background-color: black;
     height: 10%;
+    padding: 5px;
+    align-items: center;
 }
 
 .logo{
@@ -21,8 +27,9 @@ body{
 
 .navbar ul li{
     list-style-type: none;
-    margin-top: 20px;
     margin-right: 50px;
+    color: white;
+    
 }
 
 ul li:first-child {
@@ -31,7 +38,26 @@ ul li:first-child {
 
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+}
+
+
+.botao{
+    background-color:white;
+    border-radius: 18%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 125px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.botao a{
+    color: black;
+}
+
+.botao:hover{
+    background-color: #dee2e6;
 }
 
 .logo{
@@ -56,6 +82,7 @@ i{
 .direita{
     width: 50%;
     height: 50%;
+    margin-right: 10%;
 }
 
 .radio{
@@ -73,6 +100,15 @@ i{
     
 }
 
+.inputs input{
+border:none;
+background-color: #e9ecef;
+
+}
+
+.label{
+    margin-right: 15px;
+}
 .short-input{
     width: calc(50% - .5rem);
     font-size: 1.3em;
@@ -85,14 +121,6 @@ i{
     padding: 10px;
 }
 
-/**
-.inputs input{
-    padding: 10px;
-    margin-top: 15px;
-    font-size: 1.3em;
-    background-color:#EBF8FF;
-    border: none;
-}**/
 
 p{
     margin-left: 50px;
@@ -121,6 +149,10 @@ p{
     background-color: black;
     padding: 15px;
     font-weight: 550;
+}
+
+.button:hover{
+    background-color: #343a40;
 }
 
 .policy{

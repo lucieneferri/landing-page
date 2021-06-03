@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="fontawesome/css/all.min.css">
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     </style>
+    <script src="https://kit.fontawesome.com/f18158c171.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="navbar">
         <ul>
             <li class="logo"><a href="">Uber</a></li>
-            <li><a href=""><i class="fas fa-globe">EN</a></li></i>
-            <li> <button><a href="">Ride with Uber</a></button></li>
+            <li><a href=""><i class="fas fa-globe"></i>EN</a></li>
+            <li> <button class="botao" ><a href="">Ride with Uber</a></button></li>
         </ul>
 
 
@@ -35,20 +35,17 @@
             <p>Sign up now</p>
             <form>
                 <div class="radio">
-                    <label for="myRadioId">
-                        <input type="radio" name="car" id="myRadioId">I have a car
-                    </label>
-                    <span class="checkmark"></span>
-                    <label for="myRadioId2">
-                        <input type="radio" name="car" id="myRadioId">I need a car
-                    </label></br>
+                    <input type="radio" name="car" id="myRadioId">
+                    <label class="label" for="myRadioId">I have a car</label>
+                    <input type="radio" name="car" id="myRadioId">
+                    <label for="myRadioId2">I need a car</label>
                 </div>
 
                 <div class="inputs">
                     <input class="short-input" type="text" placeholder="First name">
                     <input class="short-input" type="text" placeholder="Last name">
                     <input class="normal-input" type="text" placeholder="E-mail">
-                    <input  class="normal-input" type="text" placeholder="Password">
+                    <input class="normal-input" type="text" placeholder="Password">
                     <input class="normal-input" type="text" placeholder="Phone number">
                     <input class="normal-input" type="text" placeholder="Where are you at?">
                 </div>
