@@ -70,19 +70,20 @@ i{
 
 
 .conteudo{
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
 
 }
 .esquerda{
     width: 50%;
-    padding-left: 50px;
 }
 
 .direita{
     width: 50%;
     height: 50%;
-    margin-right: 10%;
 }
 
 .radio{
@@ -123,7 +124,6 @@ background-color: #e9ecef;
 
 
 p{
-    margin-left: 50px;
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
@@ -163,3 +163,39 @@ p{
 .signin{
     font-size: 0.8em;
 }
+
+.last-dive{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-left: 50px;
+}
+
+footer i{
+   font-size: 20px;
+   margin: 15px;
+   padding: 15px;
+}
+
+footer i:hover{
+    background-color: #343a40;
+
+}
+
+@media screen and (max-width:768px) {
+    .conteudo{
+        width: 90%;
+    }
+    .esquerda{
+        width: 100%;
+    }
+    .direita{
+        width: 100%;
+    }
+}
+
