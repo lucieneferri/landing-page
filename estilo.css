@@ -184,12 +184,44 @@ footer i{
 
 footer i:hover{
     background-color: #343a40;
-
 }
+
+.nav-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+
+.nav-footer li{
+    font-size: 0.9em;
+    list-style: none;
+    padding: 7px;
+    width: fit-content;
+    white-space: nowrap;
+    border: solid 1px red;
+}
+
+.nav-footer li p{
+    display: inline-block;
+}
+
+
+
+.nav-footer a{
+    text-decoration: none;
+}
+
+.nav-footer a:hover{
+    color: #343a40;
+    text-decoration: underline;
+}
+
+
 
 @media screen and (max-width:768px) {
     .conteudo{
-        width: 90%;
+        width: 50%;
     }
     .esquerda{
         width: 100%;
@@ -197,5 +229,44 @@ footer i:hover{
     .direita{
         width: 100%;
     }
+
+    .last-dive{
+        gap: 1em;
+    }
+
+    .titulo{
+        font-size: 1.8em;
+    }
+    
+    ul li:first-child {
+        margin-right: 45%;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .titulo{
+        font-size: 1.8em;
+    }
+
+    ul li:first-child {
+        margin-right: 15px;
+    }
+
+    .radio {
+        font-size: 1.1em;
+        margin-left: 0;
+    }
+
+    .conteudo {
+         width: 75%;
+}
+
+.inputs{
+    margin-left: 0;
+}
+
+.button{
+    width: 150px;
 }
 
