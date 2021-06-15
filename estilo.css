@@ -32,7 +32,7 @@ body{
     
 }
 
-ul li:first-child {
+.navbar ul li:first-child {
     margin-right: 75%;
 }
 
@@ -186,11 +186,19 @@ footer i:hover{
     background-color: #343a40;
 }
 
+.nav-footer{
+    width: 100%;
+}
+
 .nav-footer ul{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     margin-left: 10px;
+    padding: 50px;
+}
+
+.nav-footer ul li:first-child{
+    margin-right: auto;
 }
 
 .nav-footer li{
@@ -198,8 +206,7 @@ footer i:hover{
     list-style: none;
     padding: 7px;
     width: fit-content;
-    white-space: nowrap;
-    border: solid 1px red;
+    
 }
 
 .nav-footer li p{
